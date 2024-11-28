@@ -17,4 +17,14 @@
     <param-name>PAGES_PER_BLOCK</param-name>
     <param-value>5</param-value>
   </context-param>
+  <servlet>
+    <description></description>
+    <display-name>ViewController</display-name>
+    <servlet-name>ViewController</servlet-name>
+    <servlet-class>model2.mvcboard.ViewController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewController</servlet-name>
+    <url-pattern>/ViewController</url-pattern>
+  </servlet-mapping>
 </web-app>
