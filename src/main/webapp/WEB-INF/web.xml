@@ -27,4 +27,14 @@
     <servlet-name>ViewController</servlet-name>
     <url-pattern>/ViewController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DownloadController</display-name>
+    <servlet-name>DownloadController</servlet-name>
+    <servlet-class>model2.mvcboard.DownloadController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadController</servlet-name>
+    <url-pattern>/DownloadController</url-pattern>
+  </servlet-mapping>
 </web-app>
