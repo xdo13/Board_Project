@@ -37,4 +37,14 @@
     <servlet-name>DownloadController</servlet-name>
     <url-pattern>/DownloadController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PassController</display-name>
+    <servlet-name>PassController</servlet-name>
+    <servlet-class>model2.mvcboard.PassController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PassController</servlet-name>
+    <url-pattern>/PassController</url-pattern>
+  </servlet-mapping>
 </web-app>
