@@ -34,7 +34,7 @@ public class PassController extends HttpServlet {
 			if (mode.equals("edit")) {
 				HttpSession session = req.getSession();
 				session.setAttribute("pass", pass);
-				res.sendRedirect("../mbcboard/edit.do?idx=" + idx);
+				res.sendRedirect("../mvcboard/edit.do?idx=" + idx);
 			}
 			else if (mode.equals("delete")){
 				dao = new MVCBoardDAO();

@@ -47,4 +47,14 @@
     <servlet-name>PassController</servlet-name>
     <url-pattern>/PassController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EditController</display-name>
+    <servlet-name>EditController</servlet-name>
+    <servlet-class>model2.mvcboard.EditController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditController</servlet-name>
+    <url-pattern>/EditController</url-pattern>
+  </servlet-mapping>
 </web-app>
